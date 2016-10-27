@@ -1,0 +1,5 @@
+<?=$message?>
+
+<?=$ust_menu?>
+
+<?=$grid?>

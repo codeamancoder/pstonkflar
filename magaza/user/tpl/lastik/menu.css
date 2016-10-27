@@ -1,0 +1,57 @@
+.blok-yan .menu{ margin-bottom:20px; }
+.blok-yan .menu h1{color:#fff!important;font-size:16px;  font-weight: normal; background:#444444;padding:8px}
+.blok-yan .menu h1 a{color:#fff!important;font-size:16px;  font-weight: normal; }
+.blok-yan .menu .gizli{display:none;}
+.blok-yan .menu input.btn{min-width: 55px; font-size:10px ;margin:8px 0px 2px 4px;vertical-align: middle;margin-left:3px;background-color:#122669;-moz-border-radius :2px; border:none;color:white;}
+.blok-yan .menu a{display:inline-block;}
+.blok-yan a {text-decoration: none; color:#58585a}
+/* Akıllı Menü */
+
+.blok-yan .menu-1 > ul > li > a {text-decoration: none; color:#3b3b3b; padding-left:15px;font-weight:normal;font-size:14px;}
+.blok-yan .menu-1 > ul > li {padding: 3px 0px; border-bottom: 1px solid #dddddd; background: url(img/menu-li.png) no-repeat 5px 9px;}
+.blok-yan .menu-1 > ul > li:hover {background-color: #E95F20;}
+.blok-yan .menu-1 > ul > li:hover a{color: #fff;}
+.blok-yan .menu-1 li.ug {background: url(img/li-alt.png) no-repeat 5px 11px;}
+.blok-yan .menu-1 li.ug a{color:#f7941e; font-weight: bold;}
+.blok-yan .menu-1 li.ag a{padding-left:20px;}
+
+
+
+.blok-yan .menu-2 a {font-family: "Arial"; font-size:12px; color:#333333;}
+.blok-yan .menu-2 > ul > li > a {font-weight:bold;}
+.blok-yan .menu-2 > ul > li > ul > li  {display:none; }
+.blok-yan .menu-2 > ul > li.s1 li{display:block;}
+.blok-yan .menu-2 > ul > li > ul > li.s1 {display:block;}
+.blok-yan .menu-2 > ul > li {border-bottom:1px dotted #d2d0d0;padding:3px 0px; background:url(img/li.png) no-repeat 190px 5px;}
+.blok-yan .menu-2 > ul > li.s1 {border-bottom:1px dotted #d2d0d0;padding:3px 0px; background:url(img/s1.png) no-repeat 190px 10px;}
+.blok-yan .menu-2 > ul > li.s1 > a{color:#DA251C;}
+.blok-yan .menu-2 > ul > li:hover > a{color:#DA251C;}
+
+
+.blok-yan .menu-2 > ul > li > ul > li{border-bottom:1px dotted #d2d0d0; padding:2px 0px 2px 25px; background:url(img/li_li.png) no-repeat 15px 5px;}
+.blok-yan .menu-2 > ul > li > ul > li.s1 {border-bottom:1px dotted #d2d0d0;}
+.blok-yan .menu-2 > ul > li > ul > li.s1 > a{color:#DA251C;}
+.blok-yan .menu-2 > ul > li > ul > li:hover > a{color:#DA251C;text-decoration:underline;}
+
+
+
+
+
+.blok-alt{width:750px;margin:0 auto 3px;}
+.blok-alt div{text-align: center;font-size: 80%;padding: 5px;clear:both;height: 20px;background-color: transparent;}
+.blok-alt div a{text-decoration: none;}
+.blok-alt div a:hover{text-decoration: underline;}
+.blok-alt li{background-color: transparent!important;}
+
+.blok-alt-bilgi{width:750px; margin:-10px auto;text-align: center;}
+.blok-alt-bilgi p{font-size: 9px;color:#888;padding:3px}
+
+
+.mod-menu-ust > ul{display: block ;}
+.mod-menu-ust > ul > li{ float:left;list-style: none;padding:10px 10px;margin-right:1px;}
+.mod-menu-ust > ul > li > a{text-decoration: none; color:#ffffff; font-size: 14px;font-weight:bold }
+
+.mod-menu-ust > ul > li.secili{background:#e95f20;}
+.mod-menu-ust > ul > li:hover{background:#e95f20;}
+
+

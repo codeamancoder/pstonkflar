@@ -1,0 +1,11 @@
+RewriteEngine on
+
+RewriteRule ^$ index.php [L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ilan/(.*)-(\d+)/?$ index.php?b=ilan/detay&baslik=$1&id=$2&%{QUERY_STRING} [L]
+RewriteRule ^etiket/(.*)/?$ index.php?b=blog/etiket&tag=$1&%{QUERY_STRING} [L]
+RewriteRule ^(.*)-(\d+)/?$ index.php?b=blog/detay&baslik=$1&id=$2&%{QUERY_STRING} [L]
+RewriteRule ^blog/(.*)/?$ index.php?b=blog/$1&%{QUERY_STRING} [L]
+#RewriteRule ^blog/(.*)/(\d+)/?$ index.php?b=blog/$2&page=$2&%{QUERY_STRING} [L]

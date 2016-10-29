@@ -33,9 +33,9 @@ switch (ENVIRONMENT) {
         }
         break;
     default:
-        $ayar['db']['name'] = 'pistonkafalarc_d';
-        $ayar['db']['user'] = 'piston_user';
-        $ayar['db']['pass'] = 'HqdB84qZ88uQWsXv';
+        $ayar['db']['name'] = 'srkn_pistonk';
+        $ayar['db']['user'] = 'srkn_pistonk';
+        $ayar['db']['pass'] = 'rVfBZtbEme6wYKsv';
 
         define('THEME', 'v2');
 

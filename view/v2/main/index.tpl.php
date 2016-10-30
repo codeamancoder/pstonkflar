@@ -568,7 +568,7 @@
 				<ul class="da-thumbs">
                     <? foreach($videolar as $i=>$video) :?>
 					<li>
-						<a href="<?=$video->link.'-'.$video->id?>" title="<?=lifos::convert_case_title($video->baslik);?>" data-lightbox-gallery="slider-tabs-gallery">
+						<a href="<?=$video->link.'-'.$video->id?>" title="<?=lifos::convert_case_title($video->baslik);?>">
 							<div data-src="//img.youtube.com/vi/<?=strpos($video->ozet,',') ? substr($video->ozet,0,strpos($video->ozet,',')) : $video->ozet ?>/hqdefault.jpg" data-alt="<?=lifos::convert_case_title($video->baslik);?>"></div>
 							<div class="image-caption">
 								<h5><?=lifos::substr($video->baslik,45,'..')?></h5>

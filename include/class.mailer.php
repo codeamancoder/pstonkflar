@@ -6,9 +6,9 @@ class mailer extends PHPMailer {
     function __construct() {
         $this->IsSMTP();
         $this->SMTPAuth = true;
-        $this->Host = 'smtp.yandex.com.tr';
-        $this->Port = '465';
-        $this->SMTPSecure = 'ssl';
+        $this->Host = 'smtp.yandex.ru';
+        $this->Port = '587';
+        $this->SMTPSecure = 'tls';
         $this->Username = 'iletisim@pistonkafalar.com';
         $this->Password = 'ySBzXwo4';
         $this->SetFrom($this->Username, 'Piston Kafalar');
